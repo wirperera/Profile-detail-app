@@ -1,0 +1,131 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #dddddd;
+}
+
+.phone {
+  width: 320px;
+  height: 650px;
+  margin: 20px auto;
+  background: #f5f5f5;
+  border: 7px solid #222;
+  border-radius: 38px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 0 0 3px #555;
+}
+
+.status-bar {
+  height: 28px;
+  padding: 8px 15px 0;
+  background: #000;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  font-size: 10px;
+}
+
+.header {
+  height: 45px;
+  background: #000;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.profile-content {
+  padding: 12px;
+}
+
+.avatar {
+  width: 88px;
+  height: 88px;
+  margin: 0 auto 8px;
+  background: white;
+  border: 1px solid #eeeeee;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.avatar-face {
+  font-size: 43px;
+}
+
+.verified {
+  position: absolute;
+  right: 0;
+  bottom: 9px;
+  color: #16d91b;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+hr {
+  border: none;
+  border-top: 2px solid #444;
+  margin: 7px 0 10px;
+}
+
+.detail {
+  margin-bottom: 17px;
+}
+
+.detail h3 {
+  font-size: 12px;
+  margin: 0 0 5px;
+}
+
+.detail p {
+  font-size: 12px;
+  margin: 0;
+  color: #333;
+}
+
+.add-button {
+  position: absolute;
+  right: 10px;
+  bottom: 25px;
+  width: 42px;
+  height: 42px;
+  border: none;
+  border-radius: 50%;
+  background: #000;
+  color: white;
+  font-size: 25px;
+  cursor: pointer;
+  box-shadow: 0 2px 5px #999;
+}
+
+.add-button:hover {
+  background: #333;
+}
+
+.navigation-bar {
+  position: absolute;
+  bottom: 0;
+  height: 12px;
+  width: 100%;
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navigation-bar span {
+  width: 108px;
+  height: 3px;
+  background: white;
+  border-radius: 5px;
+}
